@@ -19,6 +19,8 @@ private:
 
 	void BeginPlay() override;
 	
-	
-	
+	virtual void Tick(float DeltaSeconds) override;
+
+	// Move barrel to aim at the crosshair
+	void AimTowardsCrosshair();
 };
